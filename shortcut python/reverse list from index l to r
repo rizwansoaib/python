@@ -1,0 +1,4 @@
+l=list(range(10))
+print(l)
+rev=l[:3:]+l[8:3:-1]+l[8::]
+print(rev)
