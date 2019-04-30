@@ -25,5 +25,7 @@ for i in range(len(b)-1):
 	sec+=int(l[2])
 msec=int(sec/60)
 minute+=msec
-
-print("Total Videos : ",len(b)-1,"\nTotal length : ",minute,"min")
+hr=minute//60
+minute=minute%60
+print("Total Videos :",len(b)-1,"\nTotal length :",hr,"hr",minute,"min")
+a=input("Press Enter To Continue")
